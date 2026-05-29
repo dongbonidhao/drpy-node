@@ -1,6 +1,6 @@
 {
   "name": "drpy-node",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -81,5 +81,12 @@
     "undici": "^6.21.1",
     "ws": "^8.18.0",
     "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "@anthropic-ai/mcpb": "^2.1.2",
+    "rolldown": "^1.0.0-rc.4"
+  },
+  "optionalDependencies": {
+    "node-pty": "^1.1.0"
   }
 }
